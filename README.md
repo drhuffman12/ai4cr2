@@ -6,6 +6,8 @@ TODO: Write a description here
 
 [![GitHub release](https://img.shields.io/github/v/release/drhuffman12/ai4cr2?style=flat)](https://github.com/drhuffman12/ai4cr2/releases/latest)
 
+[![Crystal CI](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml/badge.svg)](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml)
+
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
