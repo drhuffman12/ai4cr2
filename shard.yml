@@ -1,0 +1,20 @@
+name: drh-example
+version: 0.1.0
+
+authors:
+  - drhuffman12 <drhuffman12@gmail.com>
+
+crystal: '>= 1.16.2'
+
+license: MIT
+
+description: |
+  Example repo for a Crystal Language project
+
+targets:
+  # server:
+  #   main: src/server/cli.cr
+
+  guard:
+    main: src/ai4cr2/guard.cr
+
