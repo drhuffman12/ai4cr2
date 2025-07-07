@@ -15,6 +15,6 @@ targets:
   # server:
   #   main: src/server/cli.cr
 
-  guard:
+  about:
     main: src/ai4cr2/about.cr
 
