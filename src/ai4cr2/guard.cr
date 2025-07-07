@@ -2,7 +2,7 @@
 module Ai4cr2
   module Guard
     VERSION = "0.2.0"
-
-    p "Ai4cr2::Guard version " + Ai4cr2::Guard::VERSION
   end
+
+  p Ai4cr2::Guard::VERSION
 end
