@@ -1,6 +1,6 @@
 require "./spec_helper"
 
-describe Drh::Example do
+describe Ai4cr2 do
   # TODO: Write tests
 
   it "just a simple test .. and it works" do

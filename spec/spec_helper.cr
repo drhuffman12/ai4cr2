@@ -1,2 +1,2 @@
 require "spec"
-require "../src/drh-example"
+require "../src/ai4cr2"
