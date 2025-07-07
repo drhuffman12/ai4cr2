@@ -2,6 +2,8 @@
 
 TODO: Write a description here
 
+[![Crystal CI](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml/badge.svg)](https://github.com/drhuffman12/ai4cr2/bin/guard)
+
 [![Crystal CI](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml/badge.svg)](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml)
 
 ## Installation
