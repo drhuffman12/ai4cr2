@@ -1,5 +1,5 @@
 name: ai4cr2
-version: 0.1.0
+version: 0.2.1b
 
 authors:
   - drhuffman12 <drhuffman12@gmail.com>
@@ -17,4 +17,45 @@ targets:
 
   about:
     main: src/ai4cr2/about.cr
+
+# dependencies:
+
+ # ascii_bar_charter:
+ #   github: drhuffman12/ascii_bar_charter
+    # branch: master
+
+ # counter_safe:
+ #   github: drhuffman12/counter_safe
+
+development_dependencies:
+
+  # ameba:
+  #   github: crystal-ameba/ameba
+  #   version: ~> 0.14.1
+
+  ## Un-comment/edit after Crystal 0.36.0 or 1.0 compatible:
+  # icr:
+  #   github: crystal-community/icr
+  #   branch: master
+
+  spectator:
+    gitlab: arctic-fox/spectator
+    branch: master
+    version: ">= 0.9.33"
+
+  ## Un-comment after Crystal 1.0 compatible:
+  # aasm:
+  
+  #   github: veelenga/aasm.cr
+  #   # version: 0.11.0
+  #   # github: drhuffman12/aasm.cr
+  #   branch: master
+  #   # version: 0.1.1
+  #   # # https://github.com/veelenga/aasm.cr
+
+  faker:
+    github: askn/faker
+
+  hardware:
+    github: crystal-community/hardware
 
