@@ -2,7 +2,7 @@
 
 TODO: Write a description here
 
-Version: "0.2.1A"
+Version: "0.2.1b"
 
 [![Crystal CI](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml/badge.svg)](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml)
 
