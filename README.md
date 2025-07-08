@@ -49,7 +49,7 @@ TODO: Write development instructions here
 7. Verify your "Changes to be committed" (`git status`)
 8. Commit your changes (`git commit -am 'Add some feature'`)
 9. Push to the branch (`git push origin my-new-feature`)
-10. Create a new Pull Request
+10. Create a new Pull Request, get it approved, and merge it!
 
 ## Contributors
 
