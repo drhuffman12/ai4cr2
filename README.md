@@ -10,7 +10,7 @@ shards version
 
 ```output
 # to be automated...
-0.2.1e
+0.2.1f
 ```
 
 [![Crystal CI](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml/badge.svg)](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml)
@@ -41,16 +41,16 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it (<https://github.com/drhuffman12/ai4cr2/fork>)
-2. Make sure you are on the main/master branch (`git branch`)
-3. Create your feature branch (`git checkout -b my-new-feature`)
-4. Add your changes (`git add my-new-files`)
-5. (Please) correctly update the version!!! (Syncup `src/ai4cr2/about.cr` and `shard.yml` and in the notes above, under "SHOULD MATCH")
+1. FORK it (<https://github.com/drhuffman12/ai4cr2/fork>)
+2. Make sure you are on the main/master BRANCH (`git branch`)
+3. Create your FEATURE branch (`git checkout -b my-new-feature`)
+4. Add your CHANGES (`git add my-new-files`)
+5. (Please) correctly update the VERSION!!! (Syncup `src/ai4cr2/about.cr` and `shard.yml` and in the notes above, under "SHOULD MATCH")
 6. TEST your changes!!! (`crystal spec`)
-7. Verify your "Changes to be committed" (`git status`)
-8. Commit your changes (`git commit -am 'Add some feature'`)
-9. Push to the branch (`git push origin my-new-feature`)
-10. Create a new Pull Request, get it approved, and merge it!
+7. VERIFY your "Changes to be committed" (`git status`)
+8. COMMIT your changes (`git commit -am 'Add some feature'`)
+9. PUSH to the branch (`git push origin my-new-feature`)
+10. Create a new Pull Request, get it Approved, and Merge it!
 
 ## Contributors
 
