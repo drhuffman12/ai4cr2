@@ -1,5 +1,5 @@
 name: ai4cr2
-version: 0.2.1b
+version: 0.2.1c
 
 authors:
   - drhuffman12 <drhuffman12@gmail.com>
@@ -18,10 +18,10 @@ targets:
   about:
     main: src/ai4cr2/about.cr
 
-# dependencies:
+dependencies:
 
- # ascii_bar_charter:
- #   github: drhuffman12/ascii_bar_charter
+ ascii_bar_charter:
+   github: drhuffman12/ascii_bar_charter
     # branch: master
 
  # counter_safe:
