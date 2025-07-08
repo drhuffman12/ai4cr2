@@ -36,11 +36,12 @@ TODO: Write development instructions here
 2. Make sure you are on the main/master branch (`git branch`)
 3. Create your feature branch (`git checkout -b my-new-feature`)
 4. Add your changes (`git add my-new-files`)
-5. TEST your changes!!! (`crystal spec`)
-6. Verify your changes (`git status`)
-7. Commit your changes (`git commit -am 'Add some feature'`)
-8. Push to the branch (`git push origin my-new-feature`)
-9. Create a new Pull Request
+5. (Please) correctly update the version!!! (Syncup `src/ai4cr2/about.cr` and `shard.yml`)
+6. TEST your changes!!! (`crystal spec`)
+7. Verify your changes (`git status`)
+8. Commit your changes (`git commit -am 'Add some feature'`)
+9. Push to the branch (`git push origin my-new-feature`)
+10. Create a new Pull Request
 
 ## Contributors
 
