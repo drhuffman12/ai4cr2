@@ -9,6 +9,7 @@ shards version
 .. SHOULD MATCH ..
 
 ```output
+# to be automated...
 0.2.1e
 ```
 
@@ -44,7 +45,7 @@ TODO: Write development instructions here
 2. Make sure you are on the main/master branch (`git branch`)
 3. Create your feature branch (`git checkout -b my-new-feature`)
 4. Add your changes (`git add my-new-files`)
-5. (Please) correctly update the version!!! (Syncup `src/ai4cr2/about.cr` and `shard.yml`)
+5. (Please) correctly update the version!!! (Syncup `src/ai4cr2/about.cr` and `shard.yml` and in the notes above, under "SHOULD MATCH")
 6. TEST your changes!!! (`crystal spec`)
 7. Verify your "Changes to be committed" (`git status`)
 8. Commit your changes (`git commit -am 'Add some feature'`)
