@@ -1,5 +1,9 @@
 version: 2.0
 shards:
+  ascii_bar_charter:
+    git: https://github.com/drhuffman12/ascii_bar_charter.git
+    version: 1.4.1
+
   faker:
     git: https://github.com/askn/faker.git
     version: 0.9.0
