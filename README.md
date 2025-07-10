@@ -10,7 +10,7 @@ shards version
 
 ```output
 # to be automated...
-0.2.1f
+0.2.1g
 ```
 
 [![Crystal CI](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml/badge.svg)](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml)
