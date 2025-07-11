@@ -46,7 +46,7 @@ TODO: Write development instructions here
 3. Create your FEATURE branch (`git checkout -b my-new-feature`)
 4. TEST existing changes!!! (`crystal spec --error-trace`)
 5. VERIFY your "Changes to be committed" (`git status`)
-6. *** (Please) correctly update the VERSION!!! (Syncup `src/ai4cr2/about.cr` and `shard.yml` and in the notes above, under "SHOULD MATCH")
+6. *** (Please) correctly update the VERSION!!! (Edit/Syncup `src/ai4cr2/about.cr` and `shard.yml` and in the notes above, under "SHOULD MATCH")
 7. ADD your CHANGES (`git add my-new-files`)
 7. Update and VERSION your changes (`git add README.md; git add shard.yml; git add src/ai4cr2/about.cr`)
 9. TEST your changes!!! (`crystal spec --error-trace`)
