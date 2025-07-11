@@ -10,7 +10,7 @@ shards version
 
 ```output
 # to be automated...
-0.2.1h
+0.2.1i
 ```
 
 [![Crystal CI](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml/badge.svg)](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml)
@@ -48,7 +48,7 @@ TODO: Write development instructions here
 5. VERIFY your "Changes to be committed" (`git status`)
 6. *** (Please) correctly update the VERSION!!! (Syncup `src/ai4cr2/about.cr` and `shard.yml` and in the notes above, under "SHOULD MATCH")
 7. Add your CHANGES (`git add my-new-files`)
-8. COMMIT your changes (`git commit -am 'Add some feature'`)
+7. Update and VERSION your changes (`git add README.md; git add shard.yml; git add src/ai4cr2/about.cr`)
 9. TEST your changes!!! (`crystal spec --error-trace`)
 10. PUSH to the branch (`git push origin my-new-feature`)
 11. Create a new Pull Request, get it Approved, and Merge it!
