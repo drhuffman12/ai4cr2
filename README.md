@@ -51,7 +51,8 @@ TODO: Write development instructions here
 7. Update and VERSION your changes (`git add README.md; git add shard.yml; git add src/ai4cr2/about.cr`)
 9. TEST your changes!!! (`crystal spec --error-trace`)
 10. PUSH to the branch (`git push origin my-new-feature`)
-11. Create a new Pull Request, get it Approved, and Merge it!
+11. COMMIT your changes to your new branch (`git commmit -am 'my-new-feature description'`)
+12. Create a new Pull Request, get it Approved, and Merge it!
 
 ## Contributors
 
