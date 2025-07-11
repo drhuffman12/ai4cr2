@@ -1,7 +1,7 @@
 # TODO: Write documentation for `Ai4cr2::About`
 module Ai4cr2
   module About
-    VERSION = "0.2.1h"
+    VERSION = "0.2.1i"
   end
 
   p Ai4cr2::About::VERSION
