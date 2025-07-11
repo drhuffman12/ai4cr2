@@ -10,7 +10,7 @@ shards version
 
 ```output
 # to be automated...
-0.2.1g
+0.2.1h
 ```
 
 [![Crystal CI](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml/badge.svg)](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml)
@@ -42,7 +42,7 @@ TODO: Write development instructions here
 ## Contributing
 
 1. FORK it (<https://github.com/drhuffman12/ai4cr2/fork>)
-2. Make sure you are on the main/master BRANCH (`git branch`)
+2. Make sure you are on the main/master BRANCH (`git branch`  `git reset --hard; git checkout master; git pull origin master`)
 3. Create your FEATURE branch (`git checkout -b my-new-feature`)
 4. TEST existing changes!!! (`crystal spec --error-trace`)
 5. VERIFY your "Changes to be committed" (`git status`)
