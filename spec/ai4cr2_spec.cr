@@ -7,4 +7,3 @@ describe Ai4cr2 do
     true.should eq(true)
   end
 end
-
