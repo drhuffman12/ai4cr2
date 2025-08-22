@@ -50,7 +50,7 @@ module Ai4cr2
       precision = 2.to_i8,
       in_bw = false,
       prefixed = false,
-      reversed = false
+      reversed = false,
     )
       hist = history.map { |h| h.nan? ? 100.0 : h }
       # hist = history.map { |h| Float64.cap_extremes(h, alt_nan: 100.0, alt_infin_pos: 100.0, alt_infin_neg: 100.0) }

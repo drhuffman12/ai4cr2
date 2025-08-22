@@ -109,11 +109,10 @@ Spectator.describe Ai4cr2::ErrorStats do
           #   plot = error_stats.plot_error_distance_history(in_bw: true).clone
 
           #   # puts plot
-  
-        
+
           # expect(plot).to eq(expected_plot_first_4)
-        
-          #end
+
+          # end
         end
 
         it "plot size is less than history_size" do
@@ -132,13 +131,13 @@ Spectator.describe Ai4cr2::ErrorStats do
         end
 
         context "TOFIX" do
-         # it "returns expected string" do
-         #    plot = error_stats.plot_error_distance_history(in_bw: true).clone
+          # it "returns expected string" do
+          #    plot = error_stats.plot_error_distance_history(in_bw: true).clone
 
-         #    # puts plot
+          #    # puts plot
 
-         #    expect(plot).to eq(expected_plot_all)
-         #  end
+          #    expect(plot).to eq(expected_plot_all)
+          #  end
         end
 
         it "plot size maxes out at history_size" do

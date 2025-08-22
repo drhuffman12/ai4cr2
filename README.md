@@ -1,17 +1,6 @@
 # ai4cr2
 
-The CURRENT 
-
-```sh
-shards version
-```
-
-.. SHOULD MATCH ..
-
-```output
-# to be automated...
-0.2.1i
-```
+Version: 0.2.2
 
 [![Crystal CI](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml/badge.svg)](https://github.com/drhuffman12/ai4cr2/actions/workflows/crystal.yml)
 
