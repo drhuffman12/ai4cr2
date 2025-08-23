@@ -1,5 +1,13 @@
 version: 2.0
 shards:
+  ascii_bar_charter:
+    git: https://github.com/drhuffman12/ascii_bar_charter.git
+    version: 1.4.1
+
+  counter_safe:
+    git: https://github.com/drhuffman12/counter_safe.git
+    version: 0.1.3
+
   faker:
     git: https://github.com/askn/faker.git
     version: 0.9.0
