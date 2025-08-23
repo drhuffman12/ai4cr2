@@ -1,6 +1,6 @@
 module Ai4cr2
   class ErrorStats
-    include JSON::Serializable
+    # include JSON::Serializable
 
     # Must init @score, so set it big enough but not too big (so ErrorStats works w/ to/from JSON)
     INITIAL_SCORE = Float64::MAX ** (1.0/16)

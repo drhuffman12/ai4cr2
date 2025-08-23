@@ -12,7 +12,7 @@ Spectator.describe Ai4cr2::ErrorStats do
   let(expected_initial_history) {
     [] of Float64
   }
-  let(to_json) { error_stats.to_json }
+  # let(to_json) { error_stats.to_json }
   let(expected_initial_json) { "{\"history_size\":8,\"distance\":-1.0,\"history\":[],\"score\":1.8446744073709552e+19,\"hist_correct_plot\":[\"tbd\"]}" }
   let(expected_later_json) { "{\"history_size\":8,\"distance\":10.0,\"history\":[10.0],\"score\":5.0,\"hist_correct_plot\":[\"tbd\"]}" }
 
@@ -35,23 +35,23 @@ Spectator.describe Ai4cr2::ErrorStats do
       end
     end
 
-    context "to_json" do
-      context "returns" do
-        it "expected_initial_json" do
-          expect(to_json).to eq(expected_initial_json)
-        end
-      end
-    end
+    # context "to_json" do
+    #   context "returns" do
+    #     it "expected_initial_json" do
+    #       expect(to_json).to eq(expected_initial_json)
+    #     end
+    #   end
+    # end
 
-    context "from_json" do
-      context "when given error_stats.to_json" do
-        context "and re-exported to_json" do
-          it "returns json matching original converted to_json" do
-            expect(Ai4cr2::ErrorStats.from_json(to_json).to_json).to eq(expected_initial_json)
-          end
-        end
-      end
-    end
+    # context "from_json" do
+    #   context "when given error_stats.to_json" do
+    #     context "and re-exported to_json" do
+    #       it "returns json matching original converted to_json" do
+    #         expect(Ai4cr2::ErrorStats.from_json(to_json).to_json).to eq(expected_initial_json)
+    #       end
+    #     end
+    #   end
+    # end
   end
 
   describe "#distance(value)" do
@@ -62,27 +62,27 @@ Spectator.describe Ai4cr2::ErrorStats do
       expect(error_stats.distance).to eq(given_value)
     end
 
-    context "to_json" do
-      context "returns" do
-        it "expected_later_json" do
-          error_stats.distance = given_value
+    # context "to_json" do
+    #   context "returns" do
+    #     it "expected_later_json" do
+     #      error_stats.distance = given_value
 
-          expect(to_json).to eq(expected_later_json)
-        end
-      end
-    end
+    #       expect(to_json).to eq(expected_later_json)
+    #     end
+    #   end
+    # end
 
-    context "from_json" do
-      context "when given error_stats.to_json" do
-        context "and re-exported to_json" do
-          it "returns json matching original converted to_json" do
-            error_stats.distance = given_value
+    # context "from_json" do
+    #   context "when given error_stats.to_json" do
+    #     context "and re-exported to_json" do
+    #       it "returns json matching original converted to_json" do
+    #         error_stats.distance = given_value
 
-            expect(Ai4cr2::ErrorStats.from_json(to_json).to_json).to eq(expected_later_json)
-          end
-        end
-      end
-    end
+    #         expect(Ai4cr2::ErrorStats.from_json(to_json).to_json).to eq(expected_later_json)
+    #       end
+    #     end
+    #   end
+    # end
   end
 
   describe "#plot_error_distance_history" do
