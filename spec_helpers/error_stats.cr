@@ -1,4 +1,4 @@
-require "./../spectator_helper"
+require "spectator_helper.cr"
 require "../../src/ai4cr2/error_stats"
 
 Spectator.describe Ai4cr2::ErrorStats do

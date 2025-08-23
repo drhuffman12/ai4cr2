@@ -1,5 +1,5 @@
 #
-# test_helper.cr
+# test_helper_spec.cr
 #
 # This is a unit test helper file for ai4cr
 #
