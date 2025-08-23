@@ -1,4 +1,5 @@
 require "../../src/ai4cr2/error_stats"
+require "spectator"
 
 Spectator.describe Ai4cr2::ErrorStats do
   let(given_history_size) { 8 }
