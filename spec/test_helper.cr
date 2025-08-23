@@ -1,23 +1,12 @@
 #
 # test_helper.cr
 #
-# This is a unit test helper file for ai4cr
-#
-# Ported By:: Daniel Huffman
-# Url::       https://github.com/drhuffman12/ai4cr
-#
-# Based on::  Ai4r
-#   Author::    Olav Stetter
-#   License::   MPL 1.1
-#   Project::   ai4r
-#   Url::       http://www.ai4r.org/
-#
-# You can redistribute it and/or modify it under the terms of
-# the Mozilla Public License version 1.1  as published by the
-# Mozilla Foundation at http://www.mozilla.org/MPL/MPL-1.1.txt
+# This is a unit test helper file for ai4cr2
 #
 
-# TODO: add JSON-friendly versions of below!
+def puts_debug(message = "")
+  puts message if ENV.has_key?("DEBUG") && ENV["DEBUG"] == "1"
+end
 
 def assert_approximate_equality(expected, real, delta = 0.01)
   if expected.responds_to?(:abs) && real.responds_to?(:abs)
