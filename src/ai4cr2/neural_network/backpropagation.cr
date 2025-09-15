@@ -14,7 +14,7 @@
 require "json"
 
 # require "../../../src/ai4cr2/neural_network/breed/client.cr"
-# require "../../../src/ai4cr2/error_stats.cr"
+require "../../../src/ai4cr2/error_stats.cr"
 
 module Ai4cr2
   # Artificial Neural Networks are mathematical or computational models based on
@@ -103,7 +103,7 @@ module Ai4cr2
 
       property expected_outputs : Array(Float64)
 
-      # getter error_stats : Ai4cr2::ErrorStats
+      getter error_stats : Ai4cr2::ErrorStats
       # include Ai4cr2::Breed::Client
 
       # Creates a new network specifying the its architecture.
@@ -178,7 +178,7 @@ module Ai4cr2
 
         @expected_outputs = Array.new(width, 0.0)
 
-        # @error_stats = Ai4cr2::ErrorStats.new(history_size)
+        @error_stats = Ai4cr2::ErrorStats.new(history_size)
 
         init_network
       end
@@ -355,8 +355,8 @@ module Ai4cr2
         @expected_outputs.each_with_index do |_elem, output_index|
           error += 0.5*(output_values[output_index] - @expected_outputs[output_index])**2
         end
-        # @error_stats.distance = error
-        # @error_stats.distance
+        @error_stats.distance = error
+        @error_stats.distance
       end
 
       def check_input_dimension(inputs)

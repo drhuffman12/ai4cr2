@@ -66,7 +66,7 @@ Spectator.describe Ai4cr2::ErrorStats do
     # context "to_json" do
     #   context "returns" do
     #     it "expected_later_json" do
-     #      error_stats.distance = given_value
+    #      error_stats.distance = given_value
 
     #       expect(to_json).to eq(expected_later_json)
     #     end
